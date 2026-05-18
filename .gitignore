@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+csvs/*/*/*
+!csvs/*/*
+generated_files/*
+!generated_files/training_results
+!generated_files/validation_results

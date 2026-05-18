@@ -1,0 +1,194 @@
+{
+  "{\"alpha\": 1e-05, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11713358",
+      "false positive: 5607",
+      "false negative: 45338",
+      "true positive: 352483"
+    ],
+    "accuracy": 0.9957955022066083,
+    "recall": 0.8860341711473251,
+    "precision": 0.9843419252143316,
+    "specificity": 0.9995215447780584,
+    "NPV": 0.996144300354393,
+    "f1": 0.9326044997360801,
+    "ROC AUC": 0.9427778579626918,
+    "MCC": 0.9318128467876416
+  },
+  "{\"alpha\": 0.0001, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11715391",
+      "false positive: 3574",
+      "false negative: 64284",
+      "true positive: 333537"
+    ],
+    "accuracy": 0.9943996700115031,
+    "recall": 0.8384097370425392,
+    "precision": 0.9893981507574656,
+    "specificity": 0.9996950242619549,
+    "NPV": 0.9945428036002691,
+    "f1": 0.9076676481633675,
+    "ROC AUC": 0.919052380652247,
+    "MCC": 0.90809999377255
+  },
+  "{\"alpha\": 0.001, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11716986",
+      "false positive: 1979",
+      "false negative: 281539",
+      "true positive: 116282"
+    ],
+    "accuracy": 0.9766012208187881,
+    "recall": 0.29229728948446665,
+    "precision": 0.9832658272803375,
+    "specificity": 0.9998311284315637,
+    "NPV": 0.9765355324925356,
+    "f1": 0.4506338140063013,
+    "ROC AUC": 0.6460642089580152,
+    "MCC": 0.5295141667076567
+  },
+  "{\"alpha\": 0.01, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11718965",
+      "false positive: 0",
+      "false negative: 397821",
+      "true positive: 0"
+    ],
+    "accuracy": 0.967167778650213,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 1.0,
+    "NPV": 0.967167778650213,
+    "f1": 0.0,
+    "ROC AUC": 0.5,
+    "MCC": 0.0
+  },
+  "{\"alpha\": 1e-05, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11718351",
+      "false positive: 614",
+      "false negative: 75587",
+      "true positive: 322234"
+    ],
+    "accuracy": 0.9937111210844196,
+    "recall": 0.809997461169722,
+    "precision": 0.9980981762315393,
+    "specificity": 0.9999476062945832,
+    "NPV": 0.9935910295611186,
+    "f1": 0.8942635245861831,
+    "ROC AUC": 0.9049725337321526,
+    "MCC": 0.8962219483416803
+  },
+  "{\"alpha\": 0.0001, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11716244",
+      "false positive: 2721",
+      "false negative: 44485",
+      "true positive: 353336"
+    ],
+    "accuracy": 0.9961040823862037,
+    "recall": 0.8881783515701785,
+    "precision": 0.9923579651572642,
+    "specificity": 0.9997678122598711,
+    "NPV": 0.9962174963813892,
+    "f1": 0.9373824411907496,
+    "ROC AUC": 0.9439730819150249,
+    "MCC": 0.9369107688194047
+  },
+  "{\"alpha\": 0.001, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11716714",
+      "false positive: 2251",
+      "false negative: 54478",
+      "true positive: 343343"
+    ],
+    "accuracy": 0.9953181478982958,
+    "recall": 0.8630590139786487,
+    "precision": 0.9934865767345498,
+    "specificity": 0.9998079181907276,
+    "NPV": 0.9953719215522099,
+    "f1": 0.9236913433277509,
+    "ROC AUC": 0.9314334660846881,
+    "MCC": 0.9237171097074649
+  },
+  "{\"alpha\": 0.01, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11716347",
+      "false positive: 2618",
+      "false negative: 42212",
+      "true positive: 355609"
+    ],
+    "accuracy": 0.9963001739900333,
+    "recall": 0.8938919765422138,
+    "precision": 0.9926917848180065,
+    "specificity": 0.9997766014319523,
+    "NPV": 0.9964101043333626,
+    "f1": 0.9407048229742027,
+    "ROC AUC": 0.9468342889870831,
+    "MCC": 0.9401751319565229
+  },
+  "{\"alpha\": 1e-05, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11620649",
+      "false positive: 98316",
+      "false negative: 28814",
+      "true positive: 369007"
+    ],
+    "accuracy": 0.9895079437732085,
+    "recall": 0.927570439971746,
+    "precision": 0.7896187433530983,
+    "specificity": 0.9916105219189578,
+    "NPV": 0.9975265812681666,
+    "f1": 0.8530533645265991,
+    "ROC AUC": 0.9595904809453518,
+    "MCC": 0.8506050767736721
+  },
+  "{\"alpha\": 0.0001, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11582365",
+      "false positive: 136600",
+      "false negative: 27665",
+      "true positive: 370156"
+    ],
+    "accuracy": 0.9864431871620082,
+    "recall": 0.9304586736245698,
+    "precision": 0.7304422641271144,
+    "specificity": 0.9883436805212747,
+    "NPV": 0.9976171465534542,
+    "f1": 0.8184068354601101,
+    "ROC AUC": 0.9594011770729222,
+    "MCC": 0.8178891737218085
+  },
+  "{\"alpha\": 0.001, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11318134",
+      "false positive: 400831",
+      "false negative: 35771",
+      "true positive: 362050"
+    ],
+    "accuracy": 0.9639671774346762,
+    "recall": 0.9100826753741004,
+    "precision": 0.4745825364637473,
+    "specificity": 0.9657963821890414,
+    "NPV": 0.9968494539984261,
+    "f1": 0.6238466031763537,
+    "ROC AUC": 0.9379395287815707,
+    "MCC": 0.642586498077204
+  },
+  "{\"alpha\": 0.01, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 11716657",
+      "false positive: 2308",
+      "false negative: 273718",
+      "true positive: 124103"
+    ],
+    "accuracy": 0.9772195365998871,
+    "recall": 0.31195688513175523,
+    "precision": 0.9817420952290544,
+    "specificity": 0.9998030542799642,
+    "NPV": 0.9771718565933092,
+    "f1": 0.4734659463748875,
+    "ROC AUC": 0.6558799697058597,
+    "MCC": 0.5467640766557295
+  }
+}

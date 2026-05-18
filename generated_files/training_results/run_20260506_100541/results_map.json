@@ -1,0 +1,194 @@
+{
+  "{\"alpha\": 1e-05, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1211201",
+      "false positive: 1771",
+      "false negative: 19681",
+      "true positive: 179229"
+    ],
+    "accuracy": 0.9848060956935495,
+    "recall": 0.901055753858529,
+    "precision": 0.9902154696132597,
+    "specificity": 0.9985399498092289,
+    "NPV": 0.9840106525239625,
+    "f1": 0.9435339948935274,
+    "ROC AUC": 0.9497978518338789,
+    "MCC": 0.9361675244717398
+  },
+  "{\"alpha\": 0.0001, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1211915",
+      "false positive: 1057",
+      "false negative: 20771",
+      "true positive: 178139"
+    ],
+    "accuracy": 0.9845397844862389,
+    "recall": 0.8955758885928309,
+    "precision": 0.9941014308355097,
+    "specificity": 0.9991285866450339,
+    "NPV": 0.983149804573103,
+    "f1": 0.9422701570459078,
+    "ROC AUC": 0.9473522376189324,
+    "MCC": 0.9350674059937165
+  },
+  "{\"alpha\": 0.001, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1212313",
+      "false positive: 659",
+      "false negative: 31926",
+      "true positive: 166984"
+    ],
+    "accuracy": 0.9769208758239003,
+    "recall": 0.8394952491076366,
+    "precision": 0.9960690276361077,
+    "specificity": 0.9994567063378215,
+    "NPV": 0.9743409425359597,
+    "f1": 0.911104260502574,
+    "ROC AUC": 0.9194759777227289,
+    "MCC": 0.9022900542838896
+  },
+  "{\"alpha\": 0.01, \"loss\": \"log_loss\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1212560",
+      "false positive: 412",
+      "false negative: 120333",
+      "true positive: 78577"
+    ],
+    "accuracy": 0.9144793970034323,
+    "recall": 0.3950379568649138,
+    "precision": 0.9947840838597779,
+    "specificity": 0.9996603384084711,
+    "NPV": 0.9097204351737161,
+    "f1": 0.5655076124779146,
+    "ROC AUC": 0.6973491476366925,
+    "MCC": 0.5975001186021581
+  },
+  "{\"alpha\": 1e-05, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1211382",
+      "false positive: 1590",
+      "false negative: 19824",
+      "true positive: 179086"
+    ],
+    "accuracy": 0.9848330101240755,
+    "recall": 0.900336835754864,
+    "precision": 0.9911997166198057,
+    "specificity": 0.9986891700715268,
+    "NPV": 0.9838987139438892,
+    "f1": 0.9435859067510393,
+    "ROC AUC": 0.9495130029131954,
+    "MCC": 0.9362899376353785
+  },
+  "{\"alpha\": 0.0001, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1159027",
+      "false positive: 53945",
+      "false negative: 1747",
+      "true positive: 197163"
+    ],
+    "accuracy": 0.9605547772405909,
+    "recall": 0.9912171333769041,
+    "precision": 0.785172117176673,
+    "specificity": 0.9555265908858572,
+    "NPV": 0.9984949697357108,
+    "f1": 0.8762449502019919,
+    "ROC AUC": 0.9733718621313806,
+    "MCC": 0.861354686784474
+  },
+  "{\"alpha\": 0.001, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1159528",
+      "false positive: 53444",
+      "false negative: 1892",
+      "true positive: 197018"
+    ],
+    "accuracy": 0.9608069229581508,
+    "recall": 0.9904881604745865,
+    "precision": 0.7866183293274029,
+    "specificity": 0.955939625976527,
+    "NPV": 0.9983709596872794,
+    "f1": 0.8768592613691997,
+    "ROC AUC": 0.9732138932255567,
+    "MCC": 0.8619371642933139
+  },
+  "{\"alpha\": 0.01, \"loss\": \"perceptron\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1199916",
+      "false positive: 13056",
+      "false negative: 13424",
+      "true positive: 185486"
+    ],
+    "accuracy": 0.9812448915702587,
+    "recall": 0.9325121914433664,
+    "precision": 0.9342406140766185,
+    "specificity": 0.9892363550024238,
+    "NPV": 0.9889363245256895,
+    "f1": 0.9333756025884886,
+    "ROC AUC": 0.9608742732228951,
+    "MCC": 0.9224624660488642
+  },
+  "{\"alpha\": 1e-05, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1198913",
+      "false positive: 14059",
+      "false negative: 12228",
+      "true positive: 186682"
+    ],
+    "accuracy": 0.9813815885463516,
+    "recall": 0.9385249610376553,
+    "precision": 0.929964481595688,
+    "specificity": 0.9884094603997454,
+    "NPV": 0.9899037354032272,
+    "f1": 0.934225111409705,
+    "ROC AUC": 0.9634672107187005,
+    "MCC": 0.9233945600459983
+  },
+  "{\"alpha\": 0.0001, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1204144",
+      "false positive: 8828",
+      "false negative: 12499",
+      "true positive: 186411"
+    ],
+    "accuracy": 0.9848946300044905,
+    "recall": 0.9371625358202202,
+    "precision": 0.954783624173449,
+    "specificity": 0.9927220084222884,
+    "NPV": 0.9897266494772912,
+    "f1": 0.9458910209083367,
+    "ROC AUC": 0.9649422721212544,
+    "MCC": 0.9371688777088607
+  },
+  "{\"alpha\": 0.001, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1187149",
+      "false positive: 25823",
+      "false negative: 13537",
+      "true positive: 185373"
+    ],
+    "accuracy": 0.9721223161708982,
+    "recall": 0.9319440953194912,
+    "precision": 0.8777296918502244,
+    "specificity": 0.9787109677717211,
+    "NPV": 0.9887256118585542,
+    "f1": 0.9040248130971017,
+    "ROC AUC": 0.9553275315456061,
+    "MCC": 0.8882803100737026
+  },
+  "{\"alpha\": 0.01, \"loss\": \"squared_hinge\", \"max_iter\": 1}": {
+    "confusion_matrix": [
+      "true negative: 1212385",
+      "false positive: 587",
+      "false negative: 31669",
+      "true positive: 167241"
+    ],
+    "accuracy": 0.977153898130297,
+    "recall": 0.8407872907345031,
+    "precision": 0.9965023714755583,
+    "specificity": 0.9995160646742052,
+    "NPV": 0.9745437095174325,
+    "f1": 0.9120462019207173,
+    "ROC AUC": 0.9201516777043541,
+    "MCC": 0.9033123934248253
+  }
+}

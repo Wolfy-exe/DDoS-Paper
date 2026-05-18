@@ -1,0 +1,16 @@
+{
+  "confusion_matrix": [
+    "true negative: 2421513",
+    "false positive: 4433",
+    "false negative: 34649",
+    "true positive: 363172"
+  ],
+  "accuracy": 0.9861596229433944,
+  "recall": 0.9129030393066229,
+  "precision": 0.9879408604344337,
+  "specificity": 0.9981726716093433,
+  "NPV": 0.9858930314857082,
+  "f1": 0.9489408512383953,
+  "ROC AUC": 0.9555378554579831,
+  "MCC": 0.941932272191162
+}

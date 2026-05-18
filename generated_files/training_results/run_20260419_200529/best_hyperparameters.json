@@ -1,0 +1,5 @@
+{
+  "loss": "squared_hinge",
+  "alpha": 1e-05,
+  "max_iter": 10
+}

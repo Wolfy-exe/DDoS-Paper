@@ -1,0 +1,5 @@
+{
+  "loss": "perceptron",
+  "alpha": 0.01,
+  "max_iter": 1
+}

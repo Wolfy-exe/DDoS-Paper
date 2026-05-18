@@ -1,0 +1,5 @@
+{
+  "loss": "log_loss",
+  "alpha": 1e-05,
+  "max_iter": 100
+}

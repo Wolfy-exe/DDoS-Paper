@@ -1,0 +1,62 @@
+{
+  "general": {
+    "random_seed": 42,
+    "binary_classification": true,
+    "multiply_benign": true,
+    "generated_files_base_dir": "generated_files",
+    "preprocessed_chunks_count": 6
+  },
+  "preprocessing": {
+    "execute_preprocessing": true,
+    "keep_preprocessed_types": false,
+    "keep_preprocessed_chunks": false,
+    "columns_to_drop": [
+      "Unnamed: 0",
+      "Flow ID",
+      "Source IP",
+      "Source Port",
+      "Destination IP",
+      "Destination Port",
+      "Protocol",
+      "Timestamp",
+      "SimillarHTTP",
+      "Inbound",
+      "Fwd Header Length.1"
+    ],
+    "dataset_2019_path": "csvs/CIC-DDoS2019",
+    "use_2017_benign": true,
+    "dataset_2017_path": "csvs/CIC-IDS2017",
+    "undersample_attacks": true,
+    "undersample_strategy": "per_type",
+    "undersample_samples_per_type": 1000000,
+    "synth_data": false,
+    "synth_labels": [
+      "WebDDoS",
+      "UDPLag"
+    ],
+    "synth_target": 5000
+  },
+  "training": {
+    "primary_metric": "f1",
+    "hyperparameter_ranges": {
+      "loss": [
+        "log_loss",
+        "hinge",
+        "squared_hinge"
+      ],
+      "alpha": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01,
+        0.1
+      ],
+      "max_iter": [
+        100,
+        500,
+        1000,
+        1500
+      ]
+    }
+  }
+}
